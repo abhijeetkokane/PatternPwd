@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F1F1"
+    android:padding="15dp"    
+    android:orientation="vertical" >
+    
+    <CheckBox
+	    android:id="@+id/apphomescreen"
+	    android:layout_height="50dp"
+	    android:layout_width="wrap_content"
+	    android:gravity="center"
+	    android:layout_gravity="center_horizontal"
+	    android:textColor="#5E5E5E"
+	    android:text="Set Home Lock Screen" />
+    
+    
+	<View android:layout_width="match_parent"
+	    android:layout_marginTop="5dp"
+	    android:layout_height="1.2dp"
+	    android:background="#d1d1d1"/>
+    
+    <!-- <TextView
+         android:id="@+id/mine"
+         android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:layout_gravity="center_vertical"
+         android:gravity="center"
+         android:background="@drawable/setting_select"
+         android:text="Admin"
+         android:textColor="#5E5E5E" /> -->
+
+	<TextView
+        android:id="@+id/generalsetting"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#5E5E5E"
+        android:gravity="center"
+        android:background="@drawable/setting_select"
+        android:text="Change Pattern"  />
+
+	<View android:layout_width="match_parent"
+	    android:layout_height="1.2dp"
+	    android:layout_marginTop="5dp"
+	    android:background="#d1d1d1"/>
+	
+	<TextView
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:background="@drawable/setting_select"
+        android:textColor="#5E5E5E"
+        android:layout_marginTop="10dp"
+        android:text="About Pattern Password" />
+
+	<View android:layout_width="match_parent"
+	    android:layout_marginTop="5dp"
+	    android:layout_height="1.2dp"
+	    android:background="#d1d1d1"/>
+
+	<TextView
+	    android:id="@+id/changerText"
+	    android:layout_width="wrap_content"
+	    android:layout_marginTop="10dp"
+	    android:textStyle="bold"
+	    android:textColor="@android:color/darker_gray"
+	    android:layout_height="wrap_content"  />
+
+	<ListView
+	    android:id="@+id/dataList"
+	    android:layout_marginTop="10dp"
+	    android:padding="7dp"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+	</ListView>
+
+</LinearLayout>

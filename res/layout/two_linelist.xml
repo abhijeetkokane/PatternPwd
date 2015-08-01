@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="7dp"
+    android:orientation="vertical" >
+
+    <RelativeLayout 
+        android:id="@+id/pwdHolder1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="email"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	<ImageView
+	    android:id="@+id/imageView1"
+	    android:layout_alignParentRight="true"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:src="@android:drawable/ic_menu_delete" />
+
+	</RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp" >
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+			android:textColor="@android:color/darker_gray"
+            android:hint="description" />
+        
+    </RelativeLayout>
+
+    <RelativeLayout 
+        android:id="@+id/pwdHolder2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp" >
+        
+	<EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:hint="pwd"
+        android:layout_alignParentLeft="true"
+        android:cursorVisible="false"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/darker_gray"
+        android:inputType="textPassword" >
+
+        <requestFocus />
+    </EditText>
+
+	</RelativeLayout>
+
+</LinearLayout>

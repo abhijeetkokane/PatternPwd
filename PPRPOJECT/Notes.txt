@@ -1,0 +1,18 @@
+https://plus.google.com/photos/101446402850080320852/albums/5880449196624050113
+
+http://www.gettyicons.com/categories/office-icons
+
+The Android unlock pattern has the following constraints:
+
+    it must use between four and nine dots;
+    a dot can only be used once;
+    a dot cannot be crossed unless it has already been used; and
+    a line between dots can be horizontal, vertical or diagonal.
+
+Good Android lock patterns are complex. For example, a simple pattern such as an L-shape has the same weaknesses as an easily guessable password. 
+I recommend creating a lock pattern that is non-linear and also crosses back on itself at least twice to create multiple possible endpoints. 
+This is important because one of swiping's weaknesses is the smudge trail it leaves on the screen. 
+If somebody picks up a phone, they can retrace the user's pattern by following the smudge trail. 
+If the pattern has multiple endpoints, then the start and finish points of the trail will be less obvious.
+
+http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&u=%2Fnetahtml%2FPTO%2Fsearch-adv.htm&r=7&p=1&f=G&l=50&d=PTXT&S1=%2820130806.PD.+AND+Google.ASNM.%29&OS=ISD/20130806+AND+AN/Google&RS=%28ISD/20130806+AND+AN/Google%29

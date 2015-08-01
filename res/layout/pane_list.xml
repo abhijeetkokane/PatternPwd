@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tryi"
+    android:orientation="vertical"
+    android:padding="5dp" >
+        
+    <ImageView
+        android:id="@+id/paneliconlogo"
+        android:layout_width="@dimen/menuiconsize"
+        android:layout_height="@dimen/menuiconsize"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/panelmenuitem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_toRightOf="@+id/paneliconlogo"
+        android:minLines="1"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_size" />
+</RelativeLayout>

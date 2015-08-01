@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+	<item
+	        android:id="@+id/admin"
+	        android:orderInCategory="0"
+	        android:showAsAction="always"
+	        android:icon="@drawable/admin"
+	        android:title="Admin"/>
+
+</menu>

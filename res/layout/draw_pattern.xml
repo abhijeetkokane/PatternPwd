@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white" >
+
+    <LinearLayout android:id="@+id/tab_one"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:background="@android:color/black"
+        android:weightSum="1.0">
+        
+    <Button
+        android:id="@+id/cpattern_register"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Register"
+        android:textColor="@android:color/white"
+        android:background="@drawable/visible_tab_action"
+        android:layout_weight=".33"/>
+
+    <Button
+        android:id="@+id/cpattern_dpattern"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text=" Draw\n Pattern"
+        android:paddingBottom="5dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/tab_selected"
+        android:layout_weight=".34"/>
+    
+    <Button
+        android:id="@+id/confirm_pattern"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text=" Confirm\n Pattern"
+        android:textColor="@android:color/white"
+        android:background="@color/unselected_tab"
+        android:layout_weight=".33"/>
+
+    </LinearLayout>
+
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+    
+    <!-- <ImageView
+        android:id="@+id/mainImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" > -->
+        
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip" 
+            android:layout_weight=".80">
+            
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:gravity="center"
+                android:weightSum="1.0" >
+                
+                 <LinearLayout
+	                android:orientation="vertical"
+	                android:layout_width="0dip"
+	                android:layout_height="match_parent"
+	                android:gravity="center"
+	                android:layout_weight="0.33" >
+                
+					<ImageView
+						android:id="@+id/imageView1"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:src="@android:drawable/btn_star" />
+		
+					<ImageView
+						android:id="@+id/imageView4"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:src="@android:drawable/btn_star" />
+					
+					<ImageView
+						android:id="@+id/imageView7"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:src="@android:drawable/btn_star" />
+					</LinearLayout>
+			
+                 
+                 <LinearLayout
+	                android:orientation="vertical"
+	                android:layout_width="0dip"
+	                android:gravity="center"
+	                android:layout_height="match_parent"
+	                android:layout_weight="0.34" >
+                
+					<ImageView
+						android:id="@+id/imageView2"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:src="@android:drawable/btn_star" />
+		
+					<ImageView
+						android:id="@+id/imageView5"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:src="@android:drawable/btn_star" />
+					
+					<ImageView
+						android:id="@+id/imageView8"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:src="@android:drawable/btn_star" />
+					</LinearLayout>
+					
+                 
+                 <LinearLayout
+	                android:orientation="vertical"
+	                android:layout_width="0dip"
+	                android:gravity="center"
+	                android:layout_height="match_parent"
+	                android:layout_weight="0.33" >
+                
+					<ImageView
+						android:id="@+id/imageView3"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:src="@android:drawable/btn_star" />
+		
+					<ImageView
+						android:id="@+id/imageView6"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:src="@android:drawable/btn_star" />
+					
+					<ImageView
+						android:id="@+id/imageView9"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:src="@android:drawable/btn_star" />
+					
+					</LinearLayout>
+			</LinearLayout>
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/d_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Confirm"
+            android:background="@drawable/button_action"/>
+
+        <Button
+            android:id="@+id/d_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:padding="15dp"
+            android:background="@drawable/button_action"/>
+	</LinearLayout>
+	<!-- </ImageView>    --> 
+</ScrollView>
+</RelativeLayout>

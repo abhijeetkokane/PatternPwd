@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="panel">#420963</color>
+	<color name="o_whitebackg">#F2F2F2</color>
+	<color name="panelback">#f6e5ff</color>
+	<color name="panelback_second">#d6c7dd</color>
+	<color name="unselected_tab">#201F1F</color>
+	<color name="unselected_tab_grad">#444343</color>
+	<color name="setting_select">#d0a0e9</color>
+	<color name="help_center">#DADADA</color>
+	<color name="help_top_bottom">#D9D9D9</color>
+	
+	<color name="new_acc_press">#bc6464</color>
+	<color name="new_acc_normal">#B9090B</color>
+	
+	<color name="secure_press">#a8b789</color>
+	<color name="secure_normal">#7AB800</color>
+	
+	<color name="settings_press">#fcaf7b</color>
+	<color name="settings_normal">#FA6800</color>
+	
+	<color name="help_press">#96d4ea</color>
+	<color name="help_normal">#16B3EE</color>
+	
+	<color name="contact_press">#a085aa</color>
+	<color name="contact_normal">#8B37AA</color>
+</resources>

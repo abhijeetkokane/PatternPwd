@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white" >
+
+    <LinearLayout android:id="@+id/tab_one"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:background="@android:color/black"
+        android:weightSum="1.0">
+        
+    <Button
+        android:id="@+id/cpattern_register"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Register"
+        android:textColor="@android:color/white"
+        android:paddingBottom="5dp"
+        android:background="@drawable/tab_selected"
+        android:layout_weight=".33"/>
+
+    <Button
+        android:id="@+id/cpattern_dpattern"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text=" Draw\n Pattern"
+        android:textColor="@android:color/white"
+        android:background="@color/unselected_tab"
+        android:layout_weight=".34"/>
+    
+    <View android:layout_width="2.5dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"/>
+    
+    <Button
+        android:id="@+id/confirm_pattern"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text=" Confirm\n Pattern"
+        android:textColor="@android:color/white"
+        android:background="@color/unselected_tab"
+        android:layout_weight=".33"/>
+
+    </LinearLayout>
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/tab_one"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/fullname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_back"
+            android:ems="10"
+            android:digits=" abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            android:maxLength="25"
+            android:hint="@string/fname"
+            android:inputType="textPersonName" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/validemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_back"
+            android:ems="10"
+            android:maxLength="20"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/mobno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_back"
+            android:ems="10"
+            android:digits="0123456789"
+            android:maxLength="10"
+            android:hint="@string/pno"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/clearfields"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_action"
+            android:padding="15dp"
+            android:text="@string/clearf" />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_action"
+            android:padding="15dp"
+            android:text="@string/submit" />
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>
